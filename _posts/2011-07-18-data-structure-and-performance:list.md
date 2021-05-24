@@ -1,7 +1,21 @@
+---
+title: "Data Structures and Performance: Lists"
+tags:
+  - algorithms
+  - performances
+  - data_structures
+  - java
+---
+
+The goal of this post is to see how a contiguous-memory structure (arrays) compare to a pointer-based
+one (linked lists).
+
+# Recap
+
 Let me start by recapping the difference between an array-based list (also called dynamic array) and
 a linked list.
 The first one is based on the array concept, i.e., store elements contiguously in memory, preserving a given order;
-the second one uses pointers betweento keep track of the order of the elements (see
+the second one uses pointers to keep track of the order of the elements (see
 [here](https://en.wikipedia.org/wiki/Array_data_structure#Efficiency_comparison_with_other_data_structures)
 for a quick comparison between linked list and dynamic array).
 
@@ -9,6 +23,7 @@ These different ways of implementing a list provide different performances:
 roughly speaking, array list requires less resources to read elements, and more resources to write
 elements (adding or removing), vice-versa for the linked list.
 
+# Read/Write performances
 In this post we are going to validate this assertion by experimentally comparing the performances of
 these data structures. We are going to use the Java language, and the ArrayList and LinkedList class.
 

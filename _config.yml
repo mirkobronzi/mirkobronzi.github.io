@@ -16,7 +16,7 @@
 title: Mirko Bronzi
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Under constructions...
+  Natural Language Processing expert expert and Machine/Deep Learning enthusiast, fascinated by Software Engineering.
 twitter_username: mirkobronzi
 github_username: mirkobronzi
 minimal_mistakes_skin: default
@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Mirko Bronzi"
   avatar : "/assets/images/mirko_bronzi.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Natural Language Processing expert and Machine/Deep Learning enthusiast, fascinated by Software Engineering."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -74,13 +74,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/mirkobronzi"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/mirkobronzi"
 
 defaults:
   # _posts
