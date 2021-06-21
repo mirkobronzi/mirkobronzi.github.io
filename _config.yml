@@ -108,3 +108,8 @@ tag_archive:
 
 # Google Analytics
 google_analytics: G-BNR7YRXDMK
+
+comments:
+  provider: "disqus"
+  disqus:
+    shortname: "mirkobronzi_blog"
