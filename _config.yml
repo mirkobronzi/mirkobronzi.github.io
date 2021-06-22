@@ -112,4 +112,4 @@ google_analytics: G-BNR7YRXDMK
 comments:
   provider: "disqus"
   disqus:
-    shortname: "mirkobronzi_blog"
+    shortname: "mirkobronzi-blog"
