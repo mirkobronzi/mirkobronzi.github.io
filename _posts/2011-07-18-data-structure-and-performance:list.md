@@ -1,5 +1,5 @@
 ---
-title: "Data Structures and Performance: Lists"
+title: "Data Structures and Performances: Lists"
 tags:
   - algorithms
   - performances
