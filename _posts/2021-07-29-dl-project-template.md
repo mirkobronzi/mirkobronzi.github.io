@@ -73,6 +73,54 @@ After the instantiation is done, the developer will find a working project that 
 such as installing the dependencies).
 This is because the code includes some synthetic data, a data loader, and a model, all based on a toy task
 (i.e., given a sequence of numbers, compute the sum).
+
+This is a tree view of an initialized repository:
+
+```
+.
+├── LICENSE
+├── README.md
+├── config
+│   └── hooks
+│       └── pre-commit
+├── docs
+│   ├── ...
+├── examples
+│   ├── data
+│   │   ├── ...
+│   ├── local
+│   │   ├── config.yaml
+│   │   └── run.sh
+│   ├── local_orion
+│   │   ├── config.yaml
+│   │   ├── orion_config.yaml
+│   │   └── run.sh
+│   ├── slurm
+│   │   ├── ...
+│   └── slurm_orion
+│       ├── ...
+├── setup.py
+├── tests
+│   └── test_hp_utils.py
+└── wonderful_project
+    ├── __init__.py
+    ├── data
+    │   ├── __init__.py
+    │   └── data_loader.py
+    ├── main.py
+    ├── models
+    │   ├── __init__.py
+    │   ├── model_loader.py
+    │   ├── my_model.py
+    │   └── optim.py
+    ├── train.py
+    └── utils
+        ├── __init__.py
+        ├── file_utils.py
+        ├── hp_utils.py
+        ├── logging_utils.py
+        └── reproducibility_utils.py
+```
 Of course, it's the developer's job to change those elements to address their task of interest.
 
 To run the model provided for the toy tasks, it is enough to just:
