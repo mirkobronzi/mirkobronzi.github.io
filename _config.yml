@@ -107,11 +107,8 @@ tag_archive:
   path: /tags/
 
 # Google Analytics
-google_analytics: "G-BNR7YRXDMK"
-
 analytics:
   provider: "google-gtag"
   google:
     tracking_id: "G-BNR7YRXDMK"
-    anonymize_ip: false # default
-
+    anonymize_ip: false
