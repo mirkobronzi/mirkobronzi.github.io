@@ -114,7 +114,7 @@ analytics:
     anonymize_ip: false
 
 # Comments
-repository: "mirkobronzi/mirkobronzi"
+repository: "mirkobronzi/mirkobronzi.github.io"
 comments:
   provider: "utterances"
   utterances:
