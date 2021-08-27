@@ -7,7 +7,7 @@ tags:
   - java
 ---
 
-The goal of this post is to see how a contiguous-memory structure (arrays) compare to a pointer-based
+The goal of this post is to see how a contiguous-memory structure (arrays) compares to a pointer-based
 one (linked lists).
 
 # Recap
