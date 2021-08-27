@@ -112,3 +112,11 @@ analytics:
   google:
     tracking_id: "G-BNR7YRXDMK"
     anonymize_ip: false
+
+# Comments
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+
