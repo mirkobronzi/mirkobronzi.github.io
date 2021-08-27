@@ -114,9 +114,11 @@ analytics:
     anonymize_ip: false
 
 # Comments
+repository: mirkobronzi/mirkobronzi
 comments:
   provider: "utterances"
   utterances:
     theme: "github-light" # "github-dark"
     issue_term: "pathname"
+    label: "utterances_comment"
 
