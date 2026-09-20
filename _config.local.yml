@@ -1,0 +1,19 @@
+# Local preview only. Pass after _config.yml; never use for publication.
+url: "http://127.0.0.1:4000"
+baseurl: ""
+host: 127.0.0.1
+port: 4000
+analytics:
+  provider: false
+comments:
+  provider: false
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .bundle
+  - .preview
+  - scripts
+  - README.md
+  - _REDESIGN_HANDOFF.md
+  - mirko-website-redesign-handoff.md

@@ -3,3 +3,7 @@ _site
 .sass-cache
 .jekyll-metadata
 Gemfile.lock
+vendor/
+.bundle/
+.preview/
+.jekyll-cache/

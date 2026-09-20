@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    {% if page.url == '/' %}
+      {% seo title=false %}
+      <title>{{ site.title | escape }}</title>
+    {% else %}
+      {% seo %}
+    {% endif %}
+    <link rel="stylesheet" href="{{ '/assets/css/research.css' | relative_url }}">
+    {% feed_meta %}
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="site-shell">
+      <header class="site-header">
+        {% if page.url == '/' %}
+        <h1 class="site-name"><a href="{{ '/' | relative_url }}">Mirko Bronzi</a></h1>
+        {% else %}
+        <a class="site-name" href="{{ '/' | relative_url }}">Mirko Bronzi</a>
+        {% endif %}
+        <nav aria-label="Main navigation">
+          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+          <a href="{{ '/#publications' | relative_url }}">Publications</a>
+          <a href="{{ '/#collaboration' | relative_url }}">Collaboration &amp; mentorship</a>
+        </nav>
+      </header>
+      <main id="main" tabindex="-1">{{ content }}</main>
+      <footer class="site-footer">
+        <span>Mirko Bronzi</span>
+        <a href="https://scholar.google.com/citations?user=gzHwVwoAAAAJ&amp;hl=en">Google Scholar</a>
+        <a href="https://github.com/mirkobronzi">GitHub</a>
+        <a href="https://ca.linkedin.com/in/mirkobronzi">LinkedIn</a>
+      </footer>
+    </div>
+  </body>
+</html>

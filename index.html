@@ -1,7 +1,38 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
-author_profile: true
+layout: research
+title: "Mirko Bronzi"
+description: "Mirko Bronzi, Senior Machine Learning Research Scientist at LawZero. Research on model introspection, internal representations, and AI safety."
 ---
+
+<section class="intro" aria-label="Introduction">
+  <div class="intro-copy">
+    <p>I’m a Senior Machine Learning Research Scientist at <a href="https://lawzero.org/">LawZero</a>, where I work on AI safety, with a focus on <a href="https://lawzero.org/en/publication/scientist-ai-safe-design-not-desiring">Scientist AI</a>’s reasoning model. I also study language models’ internal representations and behaviour: what models can report about their own internal states, how they recognize training and evaluation conditions, and what this means for reliable safety assessments.</p>
+    <p>Previously, I worked at Mila on various applied research projects, and at Nuance on machine learning and natural language processing. I hold a PhD from Roma Tre University, where I studied information extraction and integration from the web.</p>
+  </div>
+</section>
+
+<section class="content-section" id="publications" aria-labelledby="publications-title">
+  <div class="section-heading">
+    <h2 class="section-label" id="publications-title">Publications</h2>
+    <div class="section-links">
+      <a href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">→</span></a>
+      <a href="https://scholar.google.com/citations?user=gzHwVwoAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+  <p class="research-intro">My recent work explores what we can learn about language models from their activations—and what the models themselves can tell us.</p>
+  <ol class="paper-list">
+    {% assign featured_papers = site.data.publications | where: 'featured', true %}
+    {% for paper in featured_papers %}
+      {% include publication.html paper=paper show_summary=true %}
+    {% endfor %}
+  </ol>
+</section>
+
+<section class="content-section" id="collaboration" aria-labelledby="collaboration-title">
+  <div class="section-heading">
+    <h2 class="section-label" id="collaboration-title">Collaboration &amp; mentorship</h2>
+  </div>
+  <div class="prose">
+    <p>My mentorship work connects interpretability and model introspection with AI safety. You can find more about this work on my <a href="https://www.matsprogram.org/mentor/bronzi">MATS profile</a>; in particular, for mentorship opportunities and application details, please refer to the program’s current information or send me an email.</p>
+  </div>
+</section>

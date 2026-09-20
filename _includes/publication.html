@@ -1,0 +1,13 @@
+<li class="paper">
+  <span class="paper-date">{{ include.paper.year }}</span>
+  <div>
+    <h3><a href="{{ include.paper.url | escape }}">{{ include.paper.title | escape }}</a></h3>
+    <p class="paper-authors">{{ include.paper.authors | escape }}</p>
+    {% if include.paper.contribution %}<p class="paper-contribution">{{ include.paper.contribution | escape }}</p>{% endif %}
+    {% if include.show_summary and include.paper.summary %}<p>{{ include.paper.summary | escape }}</p>{% endif %}
+    <div class="paper-links">
+      <a href="{{ include.paper.url | escape }}">{{ include.paper.link_label | default: 'Read paper' }} <span aria-hidden="true">↗</span></a>
+      <span>{{ include.paper.status | escape }}</span>
+    </div>
+  </div>
+</li>

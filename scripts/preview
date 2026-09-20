@@ -1,0 +1,11 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")/.."
+# Use the separate development Ruby without changing the system installation.
+if [ -d /opt/homebrew/opt/ruby@3.3/bin ]; then
+  export PATH="/opt/homebrew/opt/ruby@3.3/bin:$PATH"
+fi
+export BUNDLE_PATH="$PWD/vendor/bundle"
+export JEKYLL_ENV=development
+exec bundle exec jekyll serve \
+  --config _config.yml,_config.local.yml --host 127.0.0.1 --port 4000 "$@"

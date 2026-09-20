@@ -1,0 +1,38 @@
+---
+layout: research
+title: Publications
+permalink: /publications/
+description: "Publications by Mirko Bronzi in AI safety, machine learning, and data extraction and integration."
+categories:
+  - id: ai-safety
+    label: AI safety
+  - id: ml
+    label: ML
+  - id: data-extraction
+    label: Data extraction and integration
+---
+
+<header class="publications-header">
+  <h1>Publications</h1>
+  <p>Papers, preprints, and research contributions, grouped by topic.</p>
+  <div class="inline-links"><a href="https://scholar.google.com/citations?user=gzHwVwoAAAAJ&amp;hl=en">Google Scholar <span aria-hidden="true">↗</span></a></div>
+  <nav class="publication-topics" aria-label="Publication categories">
+    {% for category in page.categories %}
+    <a href="#{{ category.id }}">{{ category.label }}</a>
+    {% endfor %}
+  </nav>
+</header>
+
+{% for category in page.categories %}
+<section class="content-section publication-category" id="{{ category.id }}" aria-labelledby="{{ category.id }}-title">
+  <div class="section-heading">
+    <h2 id="{{ category.id }}-title">{{ category.label }}</h2>
+  </div>
+  <ol class="paper-list">
+    {% assign papers = site.data.publications | where: 'category', category.id %}
+    {% for paper in papers %}
+      {% include publication.html paper=paper %}
+    {% endfor %}
+  </ol>
+</section>
+{% endfor %}

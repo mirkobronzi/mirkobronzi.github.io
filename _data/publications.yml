@@ -1,0 +1,126 @@
+- title: "Language Models Recognize Dropout and Gaussian Noise Applied to Their Activations"
+  category: ai-safety
+  featured: true
+  year: 2026
+  authors: "Damiano Fornasiere, Mirko Bronzi, Spencer Kitts, Alessandro Palmas, Yoshua Bengio, Oliver Richardson"
+  summary: "Language models can detect and distinguish perturbations to their activations, raising questions about introspection and awareness of training conditions."
+  url: "https://arxiv.org/abs/2604.17465"
+  status: "Preprint"
+
+- title: "How Much is Left? LLMs Linearly Encode Their Remaining Output Length"
+  category: ai-safety
+  featured: true
+  year: 2026
+  authors: "Mohamed Amine Merzouk, Dmitri Carpov, Mirko Bronzi, Damiano Fornasiere, Adam Oberman"
+  summary: "Linear probes can read out an estimate of remaining response length from model activations, offering evidence of an internal representation of output length."
+  url: "https://arxiv.org/abs/2607.05316"
+  status: "Preprint"
+
+- title: "PyINE: A Framework for Scalable Elicitation and Oversight via Code Execution"
+  category: ai-safety
+  year: 2026
+  authors: "Pierre-Luc St-Charles, Alessandro Palmas, Damiano Fornasiere, Mirko Bronzi, Storm Lei, Jean-Pierre Falet, Iulian Serban, Yoshua Bengio"
+  url: "https://github.com/lawzero-org/pyine"
+  status: "Preprint, version 1.1"
+  link_label: "Project & paper"
+
+- title: "AIMSCheck: Leveraging LLMs for AI-Assisted Review of Modern Slavery Statements Across Jurisdictions"
+  category: ml
+  year: 2025
+  authors: "Adriana Eufrosina Bora, Akshatha Arodi, Duoyi Zhang, Jordan Bannister, Mirko Bronzi, Arsene Fansi Tchango, Md Abul Bashar, Richi Nayak, Kerrie Mengersen"
+  url: "https://aclanthology.org/2025.acl-long.446/"
+  status: "ACL · pp. 9109–9135"
+
+- title: "AIMS.au: A Dataset for the Analysis of Modern Slavery Countermeasures in Corporate Statements"
+  category: ml
+  year: 2025
+  authors: "Adriana Eufrosina Bora, Pierre-Luc St-Charles, Mirko Bronzi, Arsène Fansi Tchango, Bruno Rousseau, Kerrie Mengersen"
+  url: "https://arxiv.org/abs/2502.07022"
+  status: "ICLR"
+
+- title: "Exploring Self-Attention Mechanisms for Speech Separation"
+  category: ml
+  year: 2023
+  authors: "Cem Subakan, Mirco Ravanelli, Samuele Cornell, François Grondin, Mirko Bronzi"
+  url: "https://arxiv.org/abs/2202.02884"
+  status: "IEEE/ACM Transactions on Audio, Speech, and Language Processing · 31:2169–2180"
+
+- title: "Attention Is All You Need in Speech Separation"
+  category: ml
+  year: 2021
+  authors: "Cem Subakan, Mirco Ravanelli, Samuele Cornell, Mirko Bronzi, Jianyuan Zhong"
+  url: "https://arxiv.org/abs/2010.13154"
+  status: "ICASSP · pp. 21–25"
+
+- title: "Accounting for Variance in Machine Learning Benchmarks"
+  category: ml
+  year: 2021
+  authors: "Xavier Bouthillier, Pierre Delaunay, Mirko Bronzi, Assya Trofimov, Brennan Nichyporuk, Justin Szeto, Nazanin Mohammadi Sepahvand, Edward Raff, Kanika Madan, Vikram Voleti, Samira Ebrahimi Kahou, Vincent Michalski, Tal Arbel, Chris Pal, Gael Varoquaux, Pascal Vincent"
+  url: "https://proceedings.mlsys.org/paper_files/paper/2021/hash/0184b0cd3cfb185989f858a1d9f5c1eb-Abstract.html"
+  status: "MLSys"
+
+- title: "Extraction and Integration of Partially Overlapping Web Sources"
+  category: data-extraction
+  year: 2013
+  authors: "Mirko Bronzi, Valter Crescenzi, Paolo Merialdo, Paolo Papotti"
+  url: "https://www.vldb.org/pvldb/vol6/p805-bronzi.pdf"
+  status: "Proceedings of the VLDB Endowment · 6(10):805–816"
+
+- title: "Automatic Evaluation of Relation Extraction Systems on Large-scale"
+  category: data-extraction
+  year: 2012
+  authors: "Mirko Bronzi, Zhaochen Guo, Filipe Mesquita, Denilson Barbosa, Paolo Merialdo"
+  url: "https://aclanthology.org/W12-3004/"
+  status: "AKBC-WEKEX at NAACL-HLT · pp. 19–24"
+
+- title: "Flint: From Web Pages to Probabilistic Semantic Data"
+  category: data-extraction
+  year: 2012
+  authors: "Lorenzo Blanco, Mirko Bronzi, Valter Crescenzi, Paolo Merialdo, Paolo Papotti"
+  url: "https://doi.org/10.1007/978-3-642-25008-8_13"
+  status: "Semantic Search over the Web · Book chapter · pp. 333–359"
+
+- title: "Wrapper Generation for Overlapping Web Sources"
+  category: data-extraction
+  year: 2011
+  authors: "Mirko Bronzi, Valter Crescenzi, Paolo Merialdo, Paolo Papotti"
+  url: "https://asu.elsevierpure.com/en/publications/wrapper-generation-for-overlapping-web-sources/"
+  status: "IEEE/WIC/ACM Web Intelligence · pp. 32–35"
+  link_label: "Publication details"
+
+- title: "Automatically Building Probabilistic Databases from the Web"
+  category: data-extraction
+  year: 2011
+  authors: "Lorenzo Blanco, Mirko Bronzi, Valter Crescenzi, Paolo Merialdo, Paolo Papotti"
+  url: "https://doi.org/10.1145/1963192.1963285"
+  status: "WWW Companion · pp. 185–188"
+
+- title: "The Effectiveness of Traditional and Open Relation Extraction for the Slot Filling Task at TAC 2011"
+  category: data-extraction
+  year: 2011
+  authors: "Filipe Mesquita, Ying Xu, Aditya Bhargava, Mirko Bronzi, Denilson Barbosa, Grzegorz Kondrak"
+  url: "https://tac.nist.gov/publications/2011/participant.papers/ualberta.proceedings.pdf"
+  status: "Text Analysis Conference · Participant paper"
+
+- title: "Redundancy-Driven Web Data Extraction and Integration"
+  category: data-extraction
+  year: 2010
+  authors: "Paolo Papotti, Valter Crescenzi, Paolo Merialdo, Mirko Bronzi, Lorenzo Blanco"
+  url: "https://doi.org/10.1145/1859127.1859137"
+  status: "WebDB"
+
+- title: "Exploiting Information Redundancy to Wring Out Structured Data from the Web"
+  category: data-extraction
+  year: 2010
+  authors: "Lorenzo Blanco, Mirko Bronzi, Valter Crescenzi, Paolo Merialdo, Paolo Papotti"
+  url: "https://dblp.org/rec/conf/www/BlancoBCMP10"
+  status: "WWW · pp. 1063–1064"
+  link_label: "Publication details"
+
+- title: "Data Extraction and Integration from Imprecise Web Sources"
+  category: data-extraction
+  year: 2009
+  authors: "Lorenzo Blanco, Mirko Bronzi, Valter Crescenzi, Paolo Merialdo, Paolo Papotti"
+  url: "https://iris.uniroma3.it/handle/11590/179796"
+  status: "SEBD · pp. 229–236"
+  link_label: "Publication details"
