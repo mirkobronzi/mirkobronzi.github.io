@@ -14,7 +14,7 @@
   authors: "Mohamed Amine Merzouk, Dmitri Carpov, Mirko Bronzi, Damiano Fornasiere, Adam Oberman"
   summary: "Linear probes can read out an estimate of remaining response length from model activations, offering evidence of an internal representation of output length."
   url: "https://arxiv.org/abs/2607.05316"
-  status: "Preprint"
+  status: "Accepted to NeurIPS 2027"
 
 - title: "PyINE: A Framework for Scalable Elicitation and Oversight via Code Execution"
   category: ai-safety
