@@ -14,15 +14,22 @@
   authors: "Mohamed Amine Merzouk, Dmitri Carpov, Mirko Bronzi, Damiano Fornasiere, Adam Oberman"
   summary: "Linear probes can read out an estimate of remaining response length from model activations, offering evidence of an internal representation of output length."
   url: "https://arxiv.org/abs/2607.05316"
-  status: "Accepted to NeurIPS 2027"
+  status: "Accepted to NeurIPS 2026"
+
+- title: "Cross-Model In-Context Neurofeedback Reveals (Limited) Activation Control in LLMs"
+  category: ai-safety
+  year: 2026
+  authors: "Davide Baldelli, Robyn Kozierok, Mirko Bronzi, Damiano Fornasiere"
+  url: "https://arxiv.org/abs/2610.20179"
+  status: "Preprint"
 
 - title: "PyINE: A Framework for Scalable Elicitation and Oversight via Code Execution"
   category: ai-safety
   year: 2026
-  authors: "Pierre-Luc St-Charles, Alessandro Palmas, Damiano Fornasiere, Mirko Bronzi, Storm Lei, Jean-Pierre Falet, Iulian Serban, Yoshua Bengio"
-  url: "https://github.com/lawzero-org/pyine"
-  status: "Preprint, version 1.1"
-  link_label: "Project & paper"
+  authors: "Pierre-Luc St-Charles, Alessandro Palmas, Damiano Fornasiere, Storm Lei, Mirko Bronzi, Jean-Pierre Falet, Iulian Serban, Yoshua Bengio"
+  url: "https://arxiv.org/abs/2610.04737"
+  code_url: "https://github.com/lawzero-org/pyine"
+  status: "Preprint"
 
 - title: "AIMSCheck: Leveraging LLMs for AI-Assisted Review of Modern Slavery Statements Across Jurisdictions"
   category: ml
