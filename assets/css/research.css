@@ -66,6 +66,8 @@ h1 { font-size: clamp(42px, 6vw, 56px); font-weight: 400; line-height: 1.12; let
 .paper h3 a:hover { color: var(--accent); text-decoration: underline; }
 .paper p { margin: 0 0 9px; color: #4d564f; font-size: 16px; line-height: 1.6; }
 .paper .paper-authors { color: var(--muted); font: 12px/1.6 var(--sans); }
+.paper-author { white-space: nowrap; }
+.paper-author sup { margin-left: .15em; font-size: .85em; line-height: 0; }
 .paper-links { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 14px; row-gap: 5px; font: 12px/1.6 var(--sans); }
 .paper-links > a { flex-shrink: 0; }
 .paper .paper-contribution { font: 13px/1.6 var(--sans); }

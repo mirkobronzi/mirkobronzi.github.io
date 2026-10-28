@@ -2,7 +2,23 @@
   <span class="paper-date">{{ include.paper.year }}</span>
   <div>
     <h3><a href="{{ include.paper.url | escape }}">{{ include.paper.title | escape }}</a></h3>
-    <p class="paper-authors">{{ include.paper.authors | escape }}</p>
+    <p class="paper-authors">
+      {%- if include.paper.equal_contributors or include.paper.equal_supervisors -%}
+        {%- assign authors = include.paper.authors | split: ', ' -%}
+        {%- for author in authors -%}
+          <span class="paper-author">
+            {{- author | escape -}}
+            {%- if include.paper.equal_contributors contains author -%}<sup title="Equal contribution">*</sup>{%- endif -%}
+            {%- if include.paper.equal_supervisors contains author -%}<sup title="Equal supervision">†</sup>{%- endif -%}
+          </span>{% unless forloop.last %}, {% endunless %}
+        {%- endfor -%}
+      {%- else -%}
+        {{ include.paper.authors | escape }}
+      {%- endif -%}
+    </p>
+    {% if include.paper.equal_contributors or include.paper.equal_supervisors %}
+    <p class="paper-contribution">{% if include.paper.equal_contributors %}* Equal contribution{% endif %}{% if include.paper.equal_contributors and include.paper.equal_supervisors %} · {% endif %}{% if include.paper.equal_supervisors %}† Equal supervision{% endif %}</p>
+    {% endif %}
     {% if include.paper.contribution %}<p class="paper-contribution">{{ include.paper.contribution | escape }}</p>{% endif %}
     {% if include.show_summary and include.paper.summary %}<p>{{ include.paper.summary | escape }}</p>{% endif %}
     <div class="paper-links">

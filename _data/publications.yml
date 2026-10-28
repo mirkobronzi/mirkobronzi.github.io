@@ -3,6 +3,10 @@
   featured: true
   year: 2026
   authors: "Damiano Fornasiere, Mirko Bronzi, Spencer Kitts, Alessandro Palmas, Yoshua Bengio, Oliver Richardson"
+  equal_contributors:
+    - "Damiano Fornasiere"
+    - "Mirko Bronzi"
+    - "Spencer Kitts"
   summary: "Language models can detect and distinguish perturbations to their activations, raising questions about introspection and awareness of training conditions."
   url: "https://arxiv.org/abs/2604.17465"
   status: "Preprint"
@@ -12,6 +16,9 @@
   featured: true
   year: 2026
   authors: "Mohamed Amine Merzouk, Dmitri Carpov, Mirko Bronzi, Damiano Fornasiere, Adam Oberman"
+  equal_supervisors:
+    - "Damiano Fornasiere"
+    - "Adam Oberman"
   summary: "Linear probes can read out an estimate of remaining response length from model activations, offering evidence of an internal representation of output length."
   url: "https://arxiv.org/abs/2607.05316"
   status: "Accepted to NeurIPS 2026"
@@ -20,6 +27,9 @@
   category: ai-safety
   year: 2026
   authors: "Davide Baldelli, Robyn Kozierok, Mirko Bronzi, Damiano Fornasiere"
+  equal_supervisors:
+    - "Mirko Bronzi"
+    - "Damiano Fornasiere"
   url: "https://arxiv.org/abs/2610.20179"
   status: "Preprint"
 
